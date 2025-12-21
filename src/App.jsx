@@ -5,8 +5,7 @@ import renderRoutes from "./route/route"; // Hoặc './route/route' tùy tên fi
 function App() {
   return (
     <BrowserRouter>
-      {/* ❌ Lỗi LỚN NHẤT: Hàm renderRoutes() trả về một MẢNG các <Route>. 
-          Nó PHẢI được bọc trong <Routes>. */}
+     
       <Routes>{renderRoutes()}</Routes>
     </BrowserRouter>
   );
