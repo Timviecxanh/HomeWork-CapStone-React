@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+html,
+body,
+* {
+  font-family: "Science Gothic", sans-serif !important;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.hide-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.hide-scrollbar::-webkit-scrollbar-thumb {
+  background: #cda566;
+  border-radius: 9999px;
+}
+
+.hide-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.hide-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #cda566 transparent;
+}
+
+a.active hr {
+  display: block;
+}
+.mySwiper {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.mySwiper .swiper-slide {
+  width: 400px;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 12px;
+  background-position: center;
+  background-size: cover;
+}
+
+.mySwiper .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 650px !important;
+  object-fit: cover;
+}
+
+.swiper-slide h2 {
+  font-size: 24px;
+  font-weight: 700;
+  padding-bottom: 50px;
+  padding-left: 60px;
+  color: #fff;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 50% !important;
+  color: #fff !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #fff !important;
+}
+
+.swiper-pagination-bullet {
+  width: 20px !important;
+  height: 5px !important;
+  border-radius: 2px !important;
+  opacity: 1 !important;
+}
